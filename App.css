@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+header {
+  position: relative;
+  background: rgb(29,214,0);
+  background: linear-gradient(90deg, rgb(0, 255, 0) 25%, rgba(255,255,0,1) 65%);
+  min-width: 10000px;
+  min-height: 10px;
+}
+
+.CalculatorForm {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.Btns button {
+  position: relative;
+  margin: 2px;
+  height: 30px;
+  margin-top: -70px;
+  cursor: pointer;
+}
+
+.Авто {
+  border: 2px solid black;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(0, 130, 0);
+}
+
+.Ипотека {
+  border: 2px solid black;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(0, 200, 0);
+}
+
+.Потреб {
+  border: 2px solid black;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(100, 255, 0);
+}
+
+.Процент {
+  border: 2px solid black;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(0, 50, 0);
+}
+
+.Btns {
+  margin-top: -10px;
+  margin-bottom: -15px;
+}
+
+.App-header {
+  background-color: #003eb9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

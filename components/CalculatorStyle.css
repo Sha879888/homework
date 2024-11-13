@@ -1,0 +1,60 @@
+.Calculator {
+    position: relative;
+    border: 2px solid black;
+    width: 750px;
+    height: 500px;
+}
+
+.Calculator h6 {
+    margin-top: 20px;
+}
+
+.Resultat {
+    color: black;
+    border-top: 2px dashed black;
+    margin-top: 30px;
+    background-color: rgb(230, 230, 230);
+    border-bottom: 2px dashed black;
+}
+
+.Resultat h3 {
+    margin-top: -5px;
+    user-select: none;
+}
+
+.Resultat h4 {
+    margin-top: -15px;
+}
+
+.Resultat h6 {
+    user-select: none;
+}
+
+.Рассчитать {
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+    background: linear-gradient(30deg, rgb(0, 255, 0) 25%, rgba(255,255,0,1) 65%);
+    margin-top: -130px;
+    margin-left: 32px;
+    cursor: pointer;
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+.Заявка {
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgb(0, 255, 0) 25%, rgba(255,255,0,1) 65%);
+    margin-top: -60px;
+    margin-left: 32px;
+    cursor: pointer;
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
